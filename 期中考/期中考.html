@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的夢想</title>
+    <style>
+        body {
+            font-family: 'Microsoft JhengHei', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            
+            background: linear-gradient(135deg, 
+                          #0a69f7 0%, 
+                          #06e906 25%, 
+                          #eb4908 50%, 
+                          #d80a6a 75%, 
+                          #07cddb 100%);
+            background-attachment: fixed;
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            padding: 30px;
+            margin-bottom: 40px;
+            
+            border-left: 8px solid;
+            border-image: linear-gradient(to bottom, 
+                          #07d15b, 
+                          #ec3204, 
+                          #fa8703) 1;
+            transition: all 0.4s ease;
+            backdrop-filter: blur(5px);
+        }
+        
+        .section:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+        }
+        
+        h1, h2 {
+            color: #4e54c8;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 2.8em;
+            background: linear-gradient(to right, 
+                          #e0a607, 
+                          #e9bf05, 
+                          #d10d06, 
+                          #d80b94, 
+                          #07f02e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+            padding: 10px 0;
+        }
+        
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        
+        .image-box {
+            width: 30%;
+            margin-bottom: 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+        }
+        
+        .image-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            transition: all 0.5s ease;
+        }
+        
+        .image-box img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+        }
+        
+        .image-box p {
+            margin-top: 15px;
+            font-size: 1em;
+            color: #555;
+            font-weight: bold;
+            background: linear-gradient(to right, 
+                          rgba(78, 84, 200, 0.1), 
+                          rgba(143, 148, 251, 0.2));
+            padding: 8px;
+            border-radius: 6px;
+        }
+        
+        
+        .bg-deco {
+            position: fixed;
+            width: 100vw;
+            height: 100vh;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            opacity: 0.3;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(143, 148, 251, 0.8) 0%, transparent 30%),
+                radial-gradient(circle at 80% 70%, rgba(78, 84, 200, 0.8) 0%, transparent 30%);
+        }
+        
+        @media (max-width: 768px) {
+            .image-box {
+                width: 100%;
+                margin-bottom: 30px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bg-deco"></div>
+    
+    <div class="container">
+        <h1>我的夢想</h1>
+        
+        
+        <div class="section">
+            <h2>1.我未來夢想</h2>
+            <p>我未來我希望可以往設計產業或自媒體或者Vtuber
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="下載 (1).jfif">
+                    <p>Vtuber的形象</p>
+                </div>
+            </div>
+        </div>
+        
+     
+        <div class="section">
+            <h2>2.目前對於在五專的規劃</h2>
+            <p>我現在很清楚，我對寫程式和網頁開發是沒有興趣的，只是一在的浪費時間和爸媽繳的錢，但我現在沒有退路和我跳脫不了我的舒適圈，只能在作業之中空閒畫畫，我知道我作業不是做得很好，但我就算認真讀這科，我的成績也不會比那些對這科有興趣的人還高，所以現在的規劃是把自己能做好的做好和畫我的作品。</p>
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="C:\Users\STUST\Desktop\期中考\下載 (2).jfif">
+                    <p>我的畫作 JOJO的奇妙冒險的DIO</p>
+                </div>
+            </div>
+        </div>
+        
+   
+        <div class="section">
+            <h2>3.目前對未來的計畫</h2>
+            <p>我現在在思考未來對於我的興趣加上工作，我要怎麼結合，我可以當網紅或圖文作家或者當Vtuber，看能不能以這為興趣和工作，賺錢讓我生存，現在就是熟悉adobe premiere和clip studio paint的軟體，在五專的課程我只能在課堂畫和把課業學好。
+            <div class="image-container">
+                <div class="image-box">
+                    <img src="C:\Users\STUST\Desktop\期中考\下載 (3).jfif">
+                    <p>我的畫作</p>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <h2>4.目前我的障礙</h2>
+            <p>我目前在畫畫和自媒體有的障礙，我在五專畢竟不是走我的興趣，所以我一定會比現在在設計科的進度還慢，我在畫畫中不斷要學習新的技術和動畫，但要學習新技術一定要有人教，教了就要花錢，我不希望我的家人一直在我身上花錢，我每天都在思考，我每天都在思考要去學跟我興趣無關的投資嗎?但是沒錢沒辦法去學習新技術，更無法追上設計系的人，對我來講或許我現在再繞遠路吧!繞遠路是我的捷徑我的捷徑就是繞遠路。</p>
+        </div>
+    </div>
+</body>
+</html>
