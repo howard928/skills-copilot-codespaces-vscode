@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>練習</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 0;
+        }
+        .flex-container {
+            display: flex;
+            padding: 15px;
+            margin: 15px 0;
+        }
+        .flex-item {
+            background: #3498db;
+            color: rgb(235, 232, 232);
+            padding: 15px;
+            margin: 5px;
+            border-radius: 4px;
+            text-align: center;
+            min-width: 80px;
+            font-weight: bold;
+        }
+        .row-layout {
+            min-height: auto;
+        }
+        .column-layout {
+            min-height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="flex-container row-layout" style="flex-direction: row">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+
+        </div>
+    </div>
+    <div class="example-container">
+        <div class="flex-container row-layout" style="flex-direction: row-reverse">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+
+        </div>
+    </div>
+
+    <div class="example-container">
+
+        <div class="flex-container column-layout" style="flex-direction: column">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+    </div>
+        <div class="flex-container column-layout" style="flex-direction: column-reverse">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+</html>

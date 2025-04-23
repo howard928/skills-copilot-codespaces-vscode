@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>justify-content 对齐方式示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .example-container {
+            margin: 30px 0;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+      
+        .flex-container {
+            display: flex;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 15px 0;
+        }
+        .flex-item {
+            background: #e74c3c;
+            padding: 20px;
+            margin: 5px;
+            border-radius: 4px;
+            text-align: center;
+            min-width: 80px;
+            font-weight: bold;
+        }
+        .description {
+            padding: 10px;
+        }
+        code {
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="example-container">
+        <div class="flex-container" style="justify-content: flex-start">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="justify-content: flex-end">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="justify-content: center">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="justify-content: space-between">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="justify-content: space-around">
+            <div class="flex-item">項目1</div>
+            <div class="flex-item">項目2</div>
+            <div class="flex-item">項目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+</body>
+</html>

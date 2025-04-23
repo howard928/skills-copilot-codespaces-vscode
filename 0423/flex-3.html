@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>align-items 垂直对齐方式示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 2px solid #4CAF50;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .example-container {
+            margin: 40px 0;
+            padding: 25px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            margin-top: 0;
+            padding-bottom: 10px;
+            border-bottom: 1px dashed #aaa;
+        }
+        .flex-container {
+            display: flex;
+            height: 200px;
+            padding: 15px;
+            background: #ecf0f1;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .flex-item {
+            background: #9b59b6;
+            color: white;
+            padding: 15px;
+            margin: 0 10px;
+            border-radius: 4px;
+            text-align: center;
+            width: 100px;
+            font-weight: bold;
+        }
+        .flex-item:nth-child(2) {
+            height: 80px;
+            padding-top: 30px;
+        }
+        .flex-item:nth-child(3) {
+            height: 120px;
+            font-size: 1.2em;
+        }
+        .description {
+            background: #f5eef8;
+            padding: 15px;
+            border-left: 4px solid #9b59b6;
+            margin-top: 15px;
+        }
+        code {
+            background: #333;
+            color: #f8f8f8;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+        .note {
+            font-style: italic;
+            color: #7f8c8d;
+            margin-top: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="example-container">
+
+        <div class="flex-container" style="align-items: stretch">
+            <div class="flex-item">项目1</div>
+            <div class="flex-item">项目2</div>
+            <div class="flex-item">项目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+
+        <div class="flex-container" style="align-items: flex-start">
+            <div class="flex-item">项目1</div>
+            <div class="flex-item">项目2</div>
+            <div class="flex-item">项目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="align-items: flex-end">
+            <div class="flex-item">项目1</div>
+            <div class="flex-item">项目2</div>
+            <div class="flex-item">项目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+
+        <div class="flex-container" style="align-items: center">
+            <div class="flex-item">项目1</div>
+            <div class="flex-item">项目2</div>
+            <div class="flex-item">项目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+
+    <div class="example-container">
+        <div class="flex-container" style="align-items: baseline">
+            <div class="flex-item">项目1</div>
+            <div class="flex-item">项目2</div>
+            <div class="flex-item">项目3</div>
+        </div>
+        <div class="description">
+        </div>
+    </div>
+</body>
+</html>
